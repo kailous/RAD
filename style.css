@@ -1,8 +1,11 @@
+@import url('https://kailous.github.io/RAD/root.css');
 html {
 	--mobile-scale: 1.4;
 	--mobile-padding-offset: 0.37;
 }
-
+body {
+    background-color: var(--bg-color);
+}
 body {
 	--swatch-1: rgba(255, 255, 255, 0.85);
 	--swatch-2: rgba(255, 255, 255, 0.75);
@@ -179,7 +182,6 @@ gallery-justify .caption {
 
 .page {
 	justify-content: flex-start;
-	background-color: #000000;
 }
 
 .page-content {
