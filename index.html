@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>RAD</title>
-</head>
-<body>
-    <iframe src="logo.svg" title="RAD Logo"></iframe>
-    <object type="image/svg+xml" data="logo.svg">Your browser does not support SVG</object>
+    <!-- 引入js -->
+    <script src="logo.js"></script>
+    <style>
+        my-svg-icon {
+            width: 100px;
+            height: 100px;
+        }
 
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--bg-color);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #333;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f0f0f0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <my-svg-icon></my-svg-icon>
 </body>
+
 </html>
