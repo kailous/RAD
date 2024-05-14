@@ -1,4 +1,4 @@
-@import url('https://kailous.github.io/RAD/root.css');
+@import url('lib/css/root.css');
 html {
 	--mobile-scale: 1.4;
 	--mobile-padding-offset: 0.37;

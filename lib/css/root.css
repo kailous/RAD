@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-bg: hsl(0 0 10%);
+        --footer-bg: var(--header-bg);
+        --body-bg: hsl(0 0 14%);
+        --highlight: hsl(230 100% 50%);
+        --global-text: hsl(0 0 100%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --header-bg: hsl(0 0 100%);
+        --footer-bg: var(--header-bg);
+        --body-bg: hsl(0 3% 97%);
+        --highlight: hsl(230 100% 50%);
+        --global-text: hsl(0 0 10%);
+    }
+}
