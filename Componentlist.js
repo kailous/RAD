@@ -1,1 +1,0 @@
-$("#header-placeholder").load("header.html");
