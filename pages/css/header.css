@@ -1,0 +1,36 @@
+[id="T3057851291"].page,.page-content {
+    padding: 0rem;
+}
+header .logo {
+    width: 134px;
+    height: 64px;
+}
+header .icons {
+    width: 32px;
+    height: 32px;
+}
+header {
+    width: calc(100%);
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 40px;
+    border-bottom: 1px solid var(--header-border);
+}
+
+nav {
+ 	list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+}

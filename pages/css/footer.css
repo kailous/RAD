@@ -1,0 +1,28 @@
+.icons {
+    width: 64px;
+    height: 64px;
+}
+footer .logo {
+    width: 168px;
+    height: 80px;
+}
+footer p {
+    line-height: 120%;
+    margin: 0;
+}
+#light,#right,footer {
+    display: flex;
+}
+#light,#right {
+    flex-direction: column;
+    gap: 15px;
+}
+footer {
+    padding: 30px;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--text-color);
+}
